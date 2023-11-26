@@ -30,6 +30,12 @@ Once all services have successfully launched, you will have a basic Kafka enviro
 
 You will now see that your Kafka env is running on port :9092
 
+## Read Event ##
+Run in a new CMD / Terminal this command:
+```
+$ bin/kafka-console-consumer.sh --topic ["NameOfTopic"] --from-beginning --bootstrap-server localhost:9092
+```
+
 ##
 
 ### for a Food Delivery Application: ###

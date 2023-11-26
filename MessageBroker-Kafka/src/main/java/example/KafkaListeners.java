@@ -1,4 +1,4 @@
-package com.example;
+package example;
 
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;

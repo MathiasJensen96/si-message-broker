@@ -1,4 +1,4 @@
-package com.example.config;
+package example.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -26,6 +26,7 @@ public class KafkaProducerConfig {
 
         return props;
     }
+
     @Bean
     public ProducerFactory<String, String> producerFactory() {
         return new DefaultKafkaProducerFactory<>(producerConfig());

@@ -1,6 +1,4 @@
-package com.example;
-
-
+package example;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

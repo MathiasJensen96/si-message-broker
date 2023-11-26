@@ -1,4 +1,4 @@
-package com.example;
+package example;
 
 public record MessageRequest(String message) {
 }

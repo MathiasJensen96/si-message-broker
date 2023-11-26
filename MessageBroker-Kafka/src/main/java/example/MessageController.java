@@ -1,4 +1,4 @@
-package com.example;
+package example;
 
 import org.apache.kafka.common.protocol.types.Field;
 import org.springframework.kafka.core.KafkaTemplate;

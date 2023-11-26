@@ -45,3 +45,6 @@ Utilize data streaming for real-time tracking of delivery status, location updat
 #### Customer Notifications: ####
 
 Use message brokers to trigger notifications to customers about order confirmations, delays, or other relevant updates.
+
+
+We intend to use kafka as a message broker between our microservices for our exam project. This will allow our customer service to communicate with our restaurant service and from there to our courier service.

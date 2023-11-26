@@ -1,4 +1,4 @@
-package com.example.messagebrokerkafka;
+package com.messagebrokerkafka;
 
 
 
@@ -18,6 +18,7 @@ public class KafkaApplication {
 
     @Bean
     CommandLineRunner commandLineRunner(KafkaTemplate<String, String> kafkaTemplate) {
-        return args -> kafkaTemplate.send("kafka-topic", "Hello, World!");
+        return args -> kafkaTemplate.send("kafka-topic", "Hello, World! :)");
+
     }
 }

@@ -1,4 +1,4 @@
-package com.example.messagebrokerkafka;
+package com.messagebrokerkafka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

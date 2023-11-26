@@ -54,3 +54,44 @@ Use message brokers to trigger notifications to customers about order confirmati
 
 
 We intend to use kafka as a message broker between our microservices for our exam project. This will allow our customer service to communicate with our restaurant service and from there to our courier service.
+
+## 
+
+### Accessibility:
+
+#### Simple Integration:
+
+Kafka integrates easily with various applications using client libraries in popular programming languages.
+#### RESTful Interface:
+
+Offers a user-friendly RESTful interface accessible through simple HTTP requests.
+#### Scalability:
+
+Scales horizontally to handle growing workloads, ensuring quick access for both suppliers and employees.
+### Reliability:
+
+#### Fault Tolerance:
+
+Designed to be fault-tolerant, with data replication to prevent disruptions in communication.
+#### Durability:
+
+Persists messages to disk, providing data durability and preventing message loss during system failures.
+### Benefits:
+
+#### Real-time Updates:
+
+Suppliers receive instant updates on orders, enabling quick adjustments to inventory and production.
+#### Efficient Communication:
+
+Enables seamless communication within the company, keeping everyone informed of critical updates.
+#### Streamlined Processing:
+
+Facilitates streamlined order processing with real-time tracking for both suppliers and employees.
+#### Improved Decision-Making:
+
+Empowers informed decision-making by providing timely and reliable information.
+#### Cost-effective Scaling:
+
+Scales cost-effectively, accommodating increased communication needs as the company grows.
+
+In essence, Kafka ensures quick, reliable, and cost-effective communication, benefiting both suppliers and employees in a food delivery company.

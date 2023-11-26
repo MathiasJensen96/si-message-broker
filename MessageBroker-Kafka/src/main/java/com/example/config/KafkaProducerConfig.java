@@ -1,4 +1,4 @@
-package com.example.messagebrokerkafka.config;
+package com.example.config;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
@@ -20,10 +20,10 @@ public class KafkaProducerConfig {
 
     public Map<String, Object> producerConfig() {
         Map<String, Object> props = new HashMap<>();
-
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         props.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, StringSerializer.class);
+
         return props;
     }
     @Bean
@@ -35,6 +35,6 @@ public class KafkaProducerConfig {
     public KafkaTemplate<String, String> kafkaTemplate(
             ProducerFactory<String, String> producerFactory
     ) {
-        return new KafkaTemplate<>(producerFactory());
+        return new KafkaTemplate<>(producerFactory);
     }
 }
